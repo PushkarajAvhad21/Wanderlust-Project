@@ -36,10 +36,7 @@ module.exports.createListing = async (req,res,next) => {
         query: req.body.listing.location,
         limit: 1,
       })
-        .send();
-
-   
-    
+        .send();    
     //let {title ,description , image, price, location ,country} = req.body;
     //but their is short way to write above by creating Listing object eg:Listing[title] in new.ejs
     //let listing = req.body.listing;

@@ -11,6 +11,7 @@ const upload = multer({ storage });//and store it in uploads folder
 //now we are saving in uploads afterwards it is going save using third party servers
 
 
+
 //Index route and Create route
 router
     .route("/")
